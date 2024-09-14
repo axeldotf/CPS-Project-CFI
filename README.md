@@ -8,7 +8,7 @@ This project aims to analyze and enhance Control Flow Integrity (CFI) by monitor
 
 ## Prerequisites
 
-- **Embench**: Downloaded and set up to compile programs ().
+- **Embench**: Downloaded and set up to compile programs.
 - **QEMU**: Used to emulate RISC-V execution and obtain trace data.
 - **RISC-V Toolchain**: Specifically, `riscv64-unknown-elf-gcc` and `riscv64-unknown-elf-objdump` for compiling and disassembling the executables.
   
