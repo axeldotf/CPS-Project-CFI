@@ -1,8 +1,6 @@
-# CPS-Project-CFI 
-
-Link for material: https://drive.google.com/drive/folders/1C_GEVq41TuyQl_IAJTJzGnX_BCcgs0N5?usp=sharing
-
 # CPS Project - Insecure Edge Counting for Control Flow Integrity
+
+- Processed material: https://drive.google.com/drive/folders/1C_GEVq41TuyQl_IAJTJzGnX_BCcgs0N5?usp=sharing
 
 ## Overview
 
@@ -10,7 +8,7 @@ This project aims to analyze and enhance Control Flow Integrity (CFI) by monitor
 
 ## Prerequisites
 
-- **Embench**: Downloaded and set up to compile programs.
+- **Embench**: Downloaded and set up to compile programs ().
 - **QEMU**: Used to emulate RISC-V execution and obtain trace data.
 - **RISC-V Toolchain**: Specifically, `riscv64-unknown-elf-gcc` and `riscv64-unknown-elf-objdump` for compiling and disassembling the executables.
   
@@ -108,5 +106,8 @@ This project aims to analyze and enhance Control Flow Integrity (CFI) by monitor
 - `stats.json`: Detailed statistics for each analyzed program.
 - `total_stats.csv`: Aggregated statistics for all programs analyzed.
 
-## Contact
-For questions or contributions, feel free to open an issue or contact the project maintainers.
+## References
+
+- **PROLEPSIS: Binary Instrumentation Tool for Control-Flow Integrity in ARM and RISC-V** (https://webthesis.biblio.polito.it/secure/24598/1/tesi.pdf)
+- **A FPGA-based Control-Flow Integrity Solution for Securing Bare-Metal Embedded Systems** (https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9081314&isnumber=9080912)
+- **Benchmark: Embench IoT** (https://github.com/embench/embench-iot.git)
