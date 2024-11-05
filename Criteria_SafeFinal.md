@@ -8,7 +8,7 @@ Our code contains several conditions that analyze specific instructions and dete
    - If the source registers are safe, the destination register is marked as safe.
 
 ### 2. **Load Instructions ("lw", "lh", "lb", "ld", "lbu", "lhu", "lwu")**
-   - These instructions mark the destination register (`destination`) as unsafe, presumably because the loaded content might come from untrusted memory.
+   - These instructions mark the destination register (`destination`) as unsafe, because the loaded content comes from untrusted memory.
 
 ### 3. **"li" Instruction** (load immediate)
    - This instruction loads an immediate value into a register. Here, the destination register is marked as safe.
