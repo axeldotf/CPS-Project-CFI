@@ -1,6 +1,6 @@
 ## Summary of Conditions in CFI (Control Flow Integrity) Code
 
-This code snippet contains several conditions that analyze specific instructions and determine whether register contents are considered "Safe" or "Unsafe" in the context of a dynamic execution analysis. Below is a summary of the main criteria for each block.
+Our code contains several conditions that analyze specific instructions and determine whether register contents are considered "Safe" or "Unsafe" in the context of a dynamic execution analysis. Below is a summary of the main criteria for each block.
 
 ### 1. **"OP" and "OPi" Instructions**
    - If the instruction is an arithmetic or logic operation, it checks if the source registers (`source1` or `source2`) are safe.
